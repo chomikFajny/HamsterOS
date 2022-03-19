@@ -46,7 +46,9 @@ goto pulpit
 :pulpit 
 Batbox /h 0
 cd %userprofile%\Desktop\HamsterOS\pliki.systemowe\pliki
+
 cls
+echo this system is in beta :D
 Call Button 1 1 "Settings" 15 1 "Explorer" 30 1 "Centrum" # Press
 Getinput /m %Press% /h 70
 if %errorlevel%==1 goto Settings
