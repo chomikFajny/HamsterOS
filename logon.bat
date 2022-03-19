@@ -21,3 +21,6 @@ color color 1f
     echo error code: SYSTEM_FILES_NOT_FOUND
     echo press any key to exit the system.
 pause >nul
+exit
+
+echo bruh how
